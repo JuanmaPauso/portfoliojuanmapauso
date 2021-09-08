@@ -1,14 +1,19 @@
-* {
-   
-    /*        border: 1px solid red !important;
-   */
-  
-   
-}
+:root {
+    --color-primary: #5fb7ff;
+    --color-secondary: #FF93CD;
+  }
 
 .cuerpo {
     font-family: 'Lato', sans-serif;
-    color: #93C9FF;
+    color: var(--color-primary);
+}
+
+.fondo {
+    background-image: url("../images/back-imac.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #f9f5f3; 
 }
 
 .page {
@@ -27,8 +32,10 @@ section {
     min-height: 90vh;
 }
 
-.home {
-  text-transform: uppercase;
+.enlace {
+
+    margin-right: 5vh;
+  
 }
 
 header {
@@ -50,6 +57,9 @@ h1 {
     border-radius: 50%;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    background-image: url("../images/Profile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul {
@@ -62,24 +72,24 @@ li {
     text-decoration: none;
     text-transform: capitalize;
     list-style-type: none;
-    font-weight: bolder;
-    font-size: 32px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 li a {
     text-decoration: none;
-    color: #93C9FF;
+    color: var(--color-primary);
 }
 
 li a:hover {
-    color: #FF93CD;
+    color: var(--color-secondary);
 }
 
 footer {
     min-width: 100vw;
     min-height: 5vh;
     font-size: 12px;
-    color: #93C9FF;
+    color: var(--color-primary);
     text-align: center;
     display: flex;
     flex-direction: column;

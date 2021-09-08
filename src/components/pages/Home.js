@@ -1,10 +1,15 @@
 import React from "react";
 
+
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <section>
+            <h1>Hola soy Juanma Pérez</h1>
+            <div className="foto"></div>
+            <div>
+                Esto es el contenido de la página principal
+            </div>
+        </section>
     )
 }
 
