@@ -8,17 +8,14 @@ import Portfolio from "./components/pages/Portfolio"
 import "./styles/Reset.css";
 import "./styles/App.css";
 
-import Navigation from "./components/navigation/Navbar";
-
 function App() {
   return (
-    <div className="cuerpo fondo">
+    <div className="cuerpo fondo-imac">
       <div className="page">
         <Router>
           <header>
-            <Navbar />
+            <Navbar/>
           </header>
-
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/CV" component={Curriculum} />
@@ -28,6 +25,7 @@ function App() {
             <p>Juanma Pérez © 2021</p>
           </footer>
         </Router>
+        
       </div>
     </div>
   );
