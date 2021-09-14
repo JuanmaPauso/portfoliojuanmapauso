@@ -69,6 +69,11 @@ section {
     font-size: 24px;
 }
 
+.tituloCover {
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+
 .enlace {
 
     margin-right: 5vh;
@@ -99,9 +104,6 @@ h1 {
 .coverFoto {
     height: 300px;
     width: 600px;
-    background-image: url("../images/no-cover.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 ul {
