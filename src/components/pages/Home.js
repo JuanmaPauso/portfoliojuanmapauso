@@ -4,9 +4,12 @@ import React from "react";
 const Home = () => {
 
 return (
- <section>
-<h1>Bienvenido</h1>
+<div className="page fondo-imac">
+<section>
+    <h1>Bienvenido</h1>
  </section>
+</div>
+ 
 
 )
 

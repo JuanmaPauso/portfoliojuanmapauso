@@ -21,10 +21,9 @@ const Datos = () => {
   return (
     <section>
       {covers.map((item) => (
-        <article className="portadas" key={item.id}>
+        <article className={item.direccion} key={item.titulo}>
           <div>
-            <img className="coverFoto"
-              src={`${process.env.PUBLIC_URL}/images/${item.img}`}
+            <img className="coverFoto" src={`${process.env.PUBLIC_URL}/images/${item.img}`}
               alt={item.titulo}
             />
           </div>
@@ -32,6 +31,7 @@ const Datos = () => {
             <h1 className="tituloCover">{item.titulo}</h1>
             <p>{item.descripcion}</p>
           </div>
+          
         </article>
       ))}
     </section>

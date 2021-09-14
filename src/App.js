@@ -10,8 +10,8 @@ import "./styles/App.css";
 
 function App() {
   return (
-    <div className="cuerpo fondo-imac">
-      <div className="page">
+    <div className="cuerpo">
+      
         <Router>
           <header>
             <Navbar/>
@@ -26,7 +26,7 @@ function App() {
           </footer>
         </Router>
         
-      </div>
+     
     </div>
   );
 }

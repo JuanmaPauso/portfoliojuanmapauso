@@ -3,7 +3,10 @@ import Datos from './Datos'
 
 const Portfolio = () => {
   return (
-    <Datos/>
+    <div className="page">
+       <Datos/>
+    </div>
+   
   );
 };
 
