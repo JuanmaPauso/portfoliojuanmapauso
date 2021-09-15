@@ -2,55 +2,65 @@
   {
      "titulo":"widget de gamificación",
      "descripcion":"Rediseño de producto, el objetivo era crear un widget personalizable, que se pudiera adaptar al diseño del cliente, cambiando la estructura del anterior diseño.",
-     "direccion":"portada derechaPortada",
-     "img":"no-cover.png"
+     "orden":"portada derechaPortada",
+     "img":"no-cover.png",
+     "url":"/Widget"
+
   },
   {
     "titulo":"recetas de cocina",
     "descripcion":"Grabación de videos de recetas de cocina para publicar en RRSS. En el proyecto realice las tareas de director, cámara, fotógrafo, editor de video y motion grapher.",
-    "direccion":"portada izquierdaPortada",
-    "img":"no-cover.png"
+    "orden":"portada izquierdaPortada",
+    "img":"no-cover.png",
+    "url":"/Widget"
  },
  {
    "titulo":"guía 10 destinos del mundo",
    "descripcion":"Maquetación de guía de viaje premiun. Selección de imágenes de banco de imágenes e edición, diseño de iconos en vecotores, realización de ilustraciones, creación de QR a enlaces a videos y recorrido virtual.",
-   "direccion":"portada derechaPortada",
-   "img":"no-cover.png"
+   "orden":"portada derechaPortada",
+   "img":"no-cover.png",
+   "url":"/Widget"
 },
 {
    "titulo":"landing page:  what's gamification?",
    "descripcion":"Página sobre que es la gamificación. Diseño realizado en Sketch, maquetación en HTML y CSS, fotos editadas en Photoshop e iconos animados con After Effects.",
-   "direccion":"portada izquierdaPortada",
-   "img":"no-cover.png"
+   "orden":"portada izquierdaPortada",
+   "img":"no-cover.png",
+   "url":"/LandingPage"
 },
 {
    "titulo":"movil world congress",
    "descripcion":"Preparación de recursos audiovisuales offline y online para marketing durante la feria: video, stand, app, newsletter, flyers…",
-   "direccion":"portada derechaPortada",
-   "img":"no-cover.png"
+   "orden":"portada derechaPortada",
+   "img":"no-cover.png",
+   "url":"/MWC"
 },
 {
    "titulo":"app fitness de apple watch",
    "descripcion":"Diseño  UX/UI de aplicación para Apple Watch para app de fitness. Investigación de competencia, realización de mapa  de navegación y creación de varios prototipos.",
-   "direccion":"portada izquierdaPortada",
-   "img":"no-cover.png"
+   "orden":"portada izquierdaPortada",
+   "img":"no-cover.png",
+   "url":"/Widget"
 },
 {
    "titulo":"iconos de hooptap",
    "descripcion":"Evolución de los iconos a lo largo de los años en la empresa, adaptando el diseño a las tendencias del momento.",
-   "direccion":"portada derechaPortada",
-   "img":"no-cover.png"
+   "orden":"portada derechaPortada",
+   "img":"no-cover.png",
+   "url":"/Icons"
 },
 {
    "titulo":"reportaje fotográfico fitness",
    "descripcion":"Fotografías con modelos para usar como recursos en app, web y RRSS. Toma de fotografías con cámara profesional, edición con Lightroom y montaje con Photoshop.",
-   "direccion":"portada izquierdaPortada",
-   "img":"no-cover.png"
+   "orden":"portada izquierdaPortada",
+   "img":"no-cover.png",
+   "url":"/Fitness"
 },
 {
    "titulo":"rediseño de juegos multiplataforma",
    "descripcion":"Rediseño de los juegos de Hooptap. Cambiando la estructura y formatos de todos los juegos de la plataforma, para facilitar su uso tanto internamente como para los clientes.",
-   "direccion":"portada derechaPortada",
-   "img":"no-cover.png"
+   "orden":"portada derechaPortada",
+   "img":"no-cover.png",
+   "url":"/Games"
 }
 ]
