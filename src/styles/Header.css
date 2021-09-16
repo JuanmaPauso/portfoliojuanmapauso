@@ -16,6 +16,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 li {
@@ -33,4 +34,22 @@ li a {
 
 li a:hover {
     color: var(--color-secondary);
+}
+
+.color-activo {
+    color: var(--color-secondary);
+}
+
+.home {
+    fill: var(--color-primary);
+    width: 32px;
+    height: 32px;
+}
+
+.home:hover {
+    fill: var(--color-secondary);
+}
+
+.home-activo {
+    fill: var(--color-secondary)!important;
 }

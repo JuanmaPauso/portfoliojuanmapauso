@@ -37,10 +37,6 @@ article {
     width: 600px;
 }
 
-.color-activo {
-    color: var(--color-secondary);
-}
-
 .imagenPortada:hover {
    opacity: 0.8;
 }
