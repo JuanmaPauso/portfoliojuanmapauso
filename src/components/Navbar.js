@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav>
       <ul>
         <li >
-          <NavLink to="/">Juanma Pauso</NavLink>
+          <NavLink exact to="/" activeClassName="color-activo">Juanma Pauso</NavLink>
         </li>
         <li>
           <ul>

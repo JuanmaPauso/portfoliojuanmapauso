@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Widget from "./ux-ui/Widget";
+
 
 
 const useDatos = () => {
   const [covers, setCovers] = useState([]);
 
   useEffect(() => {
-    fetch("json/covers.json")
+    // cambiar direccion antes del deploy
+    // fetch("https://juanmapauso.com/build/json/covers.json")
+    fetch("build/json/covers.json")
       .then((response) => response.json())
       .then((datos) => {
         setCovers(datos);
-        console.log(datos);
       });
   }, []);
 

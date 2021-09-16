@@ -1,0 +1,12 @@
+footer {
+    min-width: 100vw;
+    min-height: 4vh;
+    font-size: 12px;
+    color: var(--color-primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 2vh;
+    background-color: var(--color-alternative);
+}

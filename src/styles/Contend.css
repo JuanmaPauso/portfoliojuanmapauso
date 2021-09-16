@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--color-primary);
+    background-color: var(--color-background);
+}
+
+.cuerpo {
+    font-family: 'Lato', sans-serif;
+    color: var(--color-primary);
+    background-color: var(--color-background);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* padding: 0 20vw 0 20vw; */
+}
+
+h1 {
+    font-size: 40px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.fondo-imac {
+    background-image: url("./img/back-imac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+     
+}

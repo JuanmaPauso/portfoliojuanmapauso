@@ -1,5 +1,5 @@
 import React from "react";
-import Datos from './Datos'
+import Datos from '../components/Datos'
 
 const Portfolio = () => {
   return (

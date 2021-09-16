@@ -1,0 +1,22 @@
+.presentacion {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 24px;
+   
+}
+
+.foto {
+    align-self: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url("./img/Profile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

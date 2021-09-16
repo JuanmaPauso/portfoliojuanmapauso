@@ -12,14 +12,14 @@
     "descripcion":"Grabación de videos de recetas de cocina para publicar en RRSS. En el proyecto realice las tareas de director, cámara, fotógrafo, editor de video y motion grapher.",
     "orden":"portada izquierdaPortada",
     "img":"no-cover.png",
-    "url":"/Widget"
+    "url":"/Recetas"
  },
  {
    "titulo":"guía 10 destinos del mundo",
    "descripcion":"Maquetación de guía de viaje premiun. Selección de imágenes de banco de imágenes e edición, diseño de iconos en vecotores, realización de ilustraciones, creación de QR a enlaces a videos y recorrido virtual.",
    "orden":"portada derechaPortada",
    "img":"no-cover.png",
-   "url":"/Widget"
+   "url":"/Guia"
 },
 {
    "titulo":"landing page:  what's gamification?",
@@ -40,7 +40,7 @@
    "descripcion":"Diseño  UX/UI de aplicación para Apple Watch para app de fitness. Investigación de competencia, realización de mapa  de navegación y creación de varios prototipos.",
    "orden":"portada izquierdaPortada",
    "img":"no-cover.png",
-   "url":"/Widget"
+   "url":"/Watch"
 },
 {
    "titulo":"iconos de hooptap",
