@@ -8,5 +8,5 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 2vh;
-    background-color: var(--color-alternative);
+    background-color: var(--color-background-alternative);
 }
