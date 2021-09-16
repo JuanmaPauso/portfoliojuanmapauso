@@ -40,13 +40,13 @@ li a:hover {
     color: var(--color-secondary);
 }
 
-.home {
+.logoHome {
     fill: var(--color-primary);
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 }
 
-.home:hover {
+.logoHome:hover {
     fill: var(--color-secondary);
 }
 
