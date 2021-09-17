@@ -40,3 +40,26 @@ article {
 .imagenPortada:hover {
    opacity: 0.8;
 }
+
+
+@media only screen and (max-width: 720px)
+
+{
+    .portada {
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .derechaPortada {
+        flex-direction: column;
+    }
+
+    .izquierdaPortada {
+        flex-direction: column;
+    }
+
+    .coverFoto {
+        height: 20vh;
+        width: 70vw;
+    }
+    
+}

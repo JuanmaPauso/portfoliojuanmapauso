@@ -6,7 +6,7 @@
 
 header {
     /* min-height: 5vh; */
-    min-width: 60vw;
+    /* min-width: 60vw; */
     padding-left: 20%;
     padding-right: 20%;
     background-color: var(--color-background);
@@ -52,4 +52,15 @@ li a:hover {
 
 .home-activo {
     fill: var(--color-secondary)!important;
+}
+
+@media only screen and (max-width: 720px)
+
+{
+    header {
+        padding-left: 0%;
+        padding-right: 0%;
+        min-height: 5vh;
+    }
+    
 }

@@ -1,10 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useMediaQuery } from 'react-responsive';
+import BurgerMenu from "./BurguerMenu";
+
 
 const Navbar = () => {
+  
+  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 720px)'})
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 720px)' })
+
   return (
+    
     <nav>
-      <ul>
+      {isDesktopOrLaptop && <ul>
         <li>
           <NavLink exact to="/" activeClassName="home-activo">
             <svg className="logoHome" viewBox="0 0 642 700">
@@ -30,7 +38,8 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
-      </ul>
+      </ul>}
+      {isTabletOrMobile && <BurgerMenu/>}
     </nav>
   );
 };
