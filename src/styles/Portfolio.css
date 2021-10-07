@@ -42,13 +42,69 @@ article {
 }
 
 
+@media only screen and (max-width: 1700px)
+
+{
+    .portada {
+        max-width: 100%;
+        font-size: var(--text-m) ;
+    }
+
+    h1 {
+        font-size: var(--text-l);
+    }
+    
+    .derechaPortada {
+        flex-direction: row;
+    }
+
+    .izquierdaPortada {
+        flex-direction: row-reverse;
+    }
+
+    .coverFoto {
+        height: 20vh;
+        width: 30vw;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1280px)
+
+{
+    .portada {
+        max-width: 100%;
+        font-size: var(--text-l) ;
+    }
+
+    h1 {
+        font-size: var(--text-xl);
+    }
+    
+    .derechaPortada {
+        flex-direction: column;
+    }
+
+    .izquierdaPortada {
+        flex-direction: column;
+    }
+
+    .coverFoto {
+        height: 40vh;
+        width: 60vw;
+    }
+    
+}
+
 @media only screen and (max-width: 720px)
 
 {
     .portada {
         max-width: 100%;
-        font-size: 16px;
+        font-size: var(--text-m) ;
     }
+
     .derechaPortada {
         flex-direction: column;
     }
@@ -63,3 +119,5 @@ article {
     }
     
 }
+
+

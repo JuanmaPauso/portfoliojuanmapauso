@@ -6,8 +6,8 @@ import BurgerMenu from "./BurguerMenu";
 
 const Navbar = () => {
   
-  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 720px)'})
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 720px)' })
+  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 721px)'})
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 720px)'})
 
   return (
     
