@@ -22,6 +22,10 @@
     background-size: cover;
 }
 
+.foto:hover {
+    background-image: url("./img/Profile-hover.png");
+}
+
 .parrafo {
     margin-top: 2%;
 }

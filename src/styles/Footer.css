@@ -10,6 +10,11 @@ footer {
     padding-bottom: 2vh;
     background-color: var(--color-background-alternative);
 }
+
+footer p {
+    text-align: center;
+}
+
  .logoFooter {
     fill: var(--color-primary);
     width: 24px;
