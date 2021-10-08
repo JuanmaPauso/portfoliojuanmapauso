@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import page404 from "./components/page404";
 
 import Home from "./pages/Home";
@@ -50,9 +51,9 @@ function App() {
             {/* Page 404 */}
             <Route path="*" component={page404} />
           </Switch>
-          <footer>
-            <p>Juanma Pérez © 2021</p>
-          </footer>
+         
+          <Footer/>
+      
         </Router>
         
      

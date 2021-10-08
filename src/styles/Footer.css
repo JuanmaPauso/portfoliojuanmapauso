@@ -10,3 +10,16 @@ footer {
     padding-bottom: 2vh;
     background-color: var(--color-background-alternative);
 }
+ .logoFooter {
+    fill: var(--color-primary);
+    width: 24px;
+    height: 24px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+ }
+
+ .logoFooter:hover {
+    fill: var(--color-secondary);
+}

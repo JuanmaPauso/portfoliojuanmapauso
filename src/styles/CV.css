@@ -21,6 +21,10 @@
     background-size: cover;
 }
 
+.parrafo {
+    margin-top: 2%;
+}
+
 
 @media only screen and (max-width: 1700px)
 
@@ -43,10 +47,6 @@
         flex-direction: column;
         font-size: var(--text-l);
     }
-
-    p {
-        margin-top: 5%;
-    }
     
 }
 
@@ -56,6 +56,10 @@
     .foto {
         border-radius: 0%;
         width: 100%;
+    }
+
+    .parrafo {
+        margin-top: 4%;
     }
   
 }

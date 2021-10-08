@@ -1,56 +1,31 @@
 import React from "react";
-import { useMediaQuery } from "react-responsive";
 
 const Curriculum = () => {
-  const isDesktopOrLaptop = useMediaQuery({ query: "(min-width: 721px)" });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 720px)" });
-
   return (
     <div className="page">
-      {isDesktopOrLaptop && (
-        <section>
-          <div className="presentacion">
-            <div className="foto"></div>
-            <div>
-              <p>
-                Hola, me llamo Juanma Pérez y soy diseñador gráfico. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Nobis obcaecati
-                illum exercitationem delectus repellat ab excepturi architecto
-                quaerat ut ad, adipisci harum inventore vel dolore, perspiciatis
-                necessitatibus. Facilis, soluta. Error?
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                obcaecati illum exercitationem delectus repellat ab excepturi
-                architecto quaerat ut ad, adipisci harum inventore vel dolore,
-                perspiciatis necessitatibus. Facilis, soluta. Error?
-              </p>
-            </div>
+      <section>
+        <div className="presentacion">
+          <div className="foto"></div>
+          <div>
+            <p className="parrafo">
+              Hola, me llamo Juanma Pérez, soy Diseñador UX/UI y Frontend
+              Developer. 
+            </p>
+            <p className="parrafo">
+              En los últimos 8 años he estado detrás del desarrollo
+              UX/UI de proyectos web, app y juegos multiplataformas en diversas
+              empresas. Como desarrollador web tengo conocimientos en Html5,
+              CSS3, SASS, Javascript, jquery, node.js, express.js y sequelize.
+              Además de usar Git junto a Github como control de versiones.
+            </p>
+            <p className="parrafo">
+              Mis habilidades gráficas son el diseño online y offline, la edición de
+              video (motion graphics), la ilustración, la fotografía digital y
+              el modelado 3D (Cinema 4D - Vray).
+            </p>
           </div>
-        </section>
-      )}
-      {isTabletOrMobile && (
-        <section>
-          <div className="presentacion">
-            <div className="foto"></div>
-            <div>
-              <p>
-                Hola, me llamo Juanma Pérez y soy diseñador gráfico. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Nobis obcaecati
-                illum exercitationem delectus repellat ab excepturi architecto
-                quaerat ut ad, adipisci harum inventore vel dolore, perspiciatis
-                necessitatibus. Facilis, soluta. Error?
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                obcaecati illum exercitationem delectus repellat ab excepturi
-                architecto quaerat ut ad, adipisci harum inventore vel dolore,
-                perspiciatis necessitatibus. Facilis, soluta. Error?
-              </p>
-            </div>
-          </div>
-        </section>
-      )}
+        </div>
+      </section>
     </div>
   );
 };
