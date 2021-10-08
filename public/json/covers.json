@@ -3,7 +3,7 @@
      "titulo":"widget de gamificación",
      "descripcion":"Rediseño de producto, el objetivo era crear un widget personalizable, que se pudiera adaptar al diseño del cliente, cambiando la estructura del anterior diseño.",
      "orden":"portada derechaPortada",
-     "img":"no-cover.png",
+     "img":"widget.png",
      "url":"/Widget"
 
   },
@@ -11,7 +11,7 @@
     "titulo":"recetas de cocina",
     "descripcion":"Grabación de videos de recetas de cocina para publicar en RRSS. En el proyecto realice las tareas de director, cámara, fotógrafo, editor de video y motion grapher.",
     "orden":"portada izquierdaPortada",
-    "img":"no-cover.png",
+    "img":"recetas.png",
     "url":"/Recetas"
  },
  {

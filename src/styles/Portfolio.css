@@ -33,13 +33,24 @@ article {
 }
 
 .coverFoto {
-    height: 300px;
+    height: 100%;
     width: 600px;
+   
 }
 
-.imagenPortada:hover {
-   opacity: 0.8;
+.imagenPortada {
+    background-color: var(--color-secondary);
+    height: 300px;
+    width: 600px;
+    
+} 
+
+.imagenPortada a:hover {
+    opacity: 0.1; 
+    filter: grayscale(100%);
+    
 }
+
 
 
 @media only screen and (max-width: 1700px)
@@ -63,9 +74,14 @@ article {
     }
 
     .coverFoto {
-        height: 20vh;
-        width: 30vw;
+        height: 200px;
+        width: 400px;
     }
+
+    .imagenPortada {
+        height: 200px;
+        width: 400px;
+    } 
     
 }
 
@@ -91,9 +107,9 @@ article {
     }
 
     .coverFoto {
+        height: 100%;
         width: 100%;
     }
-    
 }
 
 @media only screen and (max-width: 720px)

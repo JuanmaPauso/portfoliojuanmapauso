@@ -26,9 +26,9 @@ const Datos = () => {
     <section>
       {covers.map((item) => (
         <article className={item.orden} key={item.titulo}>
-          <div>
+          <div className="imagenPortada">
 
-            <Link className="imagenPortada" to={item.url}><img className="coverFoto" src={`${process.env.PUBLIC_URL}/images/${item.img}`}
+            <Link  to={item.url}><img className="coverFoto" src={`${process.env.PUBLIC_URL}/images/${item.img}`}
               alt={item.titulo}
             /></Link>
             
