@@ -7,16 +7,55 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    font-size: 24px;
+    font-size: var(--text-l);
    
 }
 
 .foto {
     align-self: center;
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 380px;
     border-radius: 50%;
     background-image: url("./img/Profile.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+@media only screen and (max-width: 1700px)
+
+{
+    .presentacion {
+        font-size: var(--text-m);
+    }
+    
+    .foto {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1280px)
+
+{
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        font-size: var(--text-l);
+    }
+
+    p {
+        margin-top: 5%;
+    }
+    
+}
+
+@media only screen and (max-width: 720px)
+
+{
+    .foto {
+        border-radius: 0%;
+        width: 100%;
+    }
+  
 }
