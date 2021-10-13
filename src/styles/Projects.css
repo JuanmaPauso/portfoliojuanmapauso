@@ -1,0 +1,20 @@
+.trabajo {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-trabajo {
+    text-align: center;
+}
+
+.portada-trabajo {
+    align-self: center;
+    width: 600px;
+    height: auto;
+}
+
+.imagen-trabajo {
+    margin-top: 2%;
+    width: 600px;
+    height: auto;
+}
