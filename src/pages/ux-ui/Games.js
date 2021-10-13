@@ -5,14 +5,13 @@ const Games = () => {
     <div className="page fondo-imac">
       <section>
         <div className="trabajo">
-
-          <h1 className="titulo-trabajo">REDISEÑO DE JUEGOS MULTIPLATAFORMA</h1>
-
           <img
             className="portada-trabajo"
-            src={`${process.env.PUBLIC_URL}/images/games.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/games-cover.jpg`}
             alt="portada-juegos"
           />
+
+          <h1 className="titulo-trabajo">REDISEÑO DE JUEGOS MULTIPLATAFORMA</h1>
 
           <p className="parrafo">
             Hooptap era una empresa que se dedicaba a la gamificiación, ofrecía
@@ -29,9 +28,10 @@ const Games = () => {
 
           <img
             className="imagen-trabajo"
-            src={`${process.env.PUBLIC_URL}/images/games-old-images.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/games-old-images.png`}
             alt="portada-juegos"
           />
+          <div className="pie-foto">Diseños de juegos antiguos</div>
 
           <p className="parrafo">
             La solución fue un rediseño de todos los juegos de la plataforma de
@@ -44,6 +44,14 @@ const Games = () => {
             determino un mismo tamaño y formato para todos los elementos
             visuales.
           </p>
+
+          <img
+            className="imagen-trabajo"
+            src={`${process.env.PUBLIC_URL}/images/games-new-images.png`}
+            alt="portada-juegos"
+          />
+          <div className="pie-foto">Rediseño de los juegos</div>
+
           <p className="parrafo">
             El diseño del Scoreboard tenia que ser una estructura que albergara
             todo tipo de información desde el tiempo, la puntuación, etc. Se

@@ -1,20 +1,31 @@
 .trabajo {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20%;
+    font-size: var(--text-l);
 }
 
 .titulo-trabajo {
-    text-align: center;
+    /* text-align: center; */
+    margin-top: 2%;
 }
 
 .portada-trabajo {
-    align-self: center;
-    width: 600px;
-    height: auto;
+    /* width: 600px;
+    height: auto; */
+    
 }
 
 .imagen-trabajo {
     margin-top: 2%;
-    width: 600px;
+    align-self: center;
+    max-width: 100%;
     height: auto;
+}
+
+.pie-foto {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-primary);
 }
