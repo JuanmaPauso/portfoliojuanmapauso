@@ -30,9 +30,9 @@ function App() {
           </header>
           <Switch>
             {/* Páginas principales */}
-            <Route strict path="/" exact component={Home} />
-            <Route strict path="/CV" component={Curriculum} />
-            <Route strict path="/Portfolio" component={Portfolio} />
+            <Route path="/" exact component={Home} />
+            <Route path="/CV" component={Curriculum} />
+            <Route path="/Portfolio" component={Portfolio} />
             {/* Proyectos */}
             {/* UX-UI */}
             <Route strict path="/Widget" component={Widget} /> 
