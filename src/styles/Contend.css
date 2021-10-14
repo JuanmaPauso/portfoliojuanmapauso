@@ -28,9 +28,16 @@ h1 {
 .fondo-imac {
     background-image: url("./img/back-imac.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     border-radius: 25px;
+     
+}
+
+.fondo-game {
+    background-image: url("./img/background-game.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
      
 }
 

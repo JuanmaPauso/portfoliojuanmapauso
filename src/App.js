@@ -24,32 +24,32 @@ function App() {
   return (
     <div className="cuerpo">
       
-        <Router>
+        <Router forceRefresh={true} >
           <header>
             <Navbar/>
           </header>
           <Switch>
             {/* Páginas principales */}
-            <Route path="/" exact component={Home} />
-            <Route path="/CV" component={Curriculum} />
-            <Route path="/Portfolio" component={Portfolio} />
+            <Route strict path="/" exact component={Home} />
+            <Route strict path="/CV" component={Curriculum} />
+            <Route strict path="/Portfolio" component={Portfolio} />
             {/* Proyectos */}
             {/* UX-UI */}
-            <Route path="/Widget" component={Widget} /> 
-            <Route path="/LandingPage" component={LandingPage} />
-            <Route path="/Games" component={Games} />
-            <Route path="/Watch" component={Watch} />
+            <Route strict path="/Widget" component={Widget} /> 
+            <Route strict path="/LandingPage" component={LandingPage} />
+            <Route strict path="/Games" component={Games} />
+            <Route strict path="/Watch" component={Watch} />
             {/* Fotografía */}
-            <Route path="/Fitness" component={Fitness} />
+            <Route strict path="/Fitness" component={Fitness} />
             {/* Audiovisuales */}
-            <Route path="/Recetas" component={Recetas} />
+            <Route strict path="/Recetas" component={Recetas} />
             {/* Diseño Gráfico */}
-            <Route path="/MWC" component={MWC} />
-            <Route path="/Guia" component={Guia} />
+            <Route strict path="/MWC" component={MWC} />
+            <Route strict path="/Guia" component={Guia} />
             {/* Ilustracion */}
-            <Route path="/Icons" component={Icons } />
+            <Route strict path="/Icons" component={Icons } />
             {/* Page 404 */}
-            <Route path="*" component={page404} />
+            <Route strict path="*" component={page404} />
           </Switch>
          
           <Footer/>

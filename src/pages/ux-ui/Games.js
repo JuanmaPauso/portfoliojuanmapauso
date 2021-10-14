@@ -2,7 +2,7 @@ import React from "react";
 
 const Games = () => {
   return (
-    <div className="page fondo-imac">
+    <div className="page fondo-game">
       <section>
         <div className="trabajo">
           <img
