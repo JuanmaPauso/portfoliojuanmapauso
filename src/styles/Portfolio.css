@@ -72,16 +72,6 @@ article {
     .izquierdaPortada {
         flex-direction: row-reverse;
     }
-
-    .coverFoto {
-        height: 200px;
-        width: 400px;
-    }
-
-    .imagenPortada {
-        height: 200px;
-        width: 400px;
-    } 
     
 }
 
@@ -120,14 +110,16 @@ article {
         font-size: var(--text-m) ;
     }
 
-    .derechaPortada {
-        flex-direction: column;
+    .coverFoto {
+        height: 200px;
+        width: 400px;
     }
 
-    .izquierdaPortada {
-        flex-direction: column;
-    }
-
+    .imagenPortada {
+        height: 200px;
+        width: 400px;
+        
+    } 
     
 }
 

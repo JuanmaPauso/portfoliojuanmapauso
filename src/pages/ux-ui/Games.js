@@ -2,9 +2,9 @@ import React from "react";
 
 const Games = () => {
   return (
-    <div className="page fondo-game">
+    <div className="page">
       <section>
-        <div className="trabajo">
+        <div className="trabajo fondo-game">
           <img
             className="portada-trabajo"
             src={`${process.env.PUBLIC_URL}/images/games-cover.jpg`}
