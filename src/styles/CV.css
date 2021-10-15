@@ -9,11 +9,13 @@
     justify-content: center;
     justify-items: center;
     font-size: var(--text-l);
+    width: 60vw;
    
 }
 
 .foto {
-    align-self: center;
+    /* align-self: center; */
+    align-self: flex-start;
     height: 380px;
     width: 380px;
     border-radius: 50%;
@@ -39,6 +41,7 @@
     }
     
     .foto {
+        align-self: center;
         height: 300px;
         width: 300px;
     }
