@@ -29,7 +29,7 @@ h1 {
     background-image: url("./img/back-imac.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 25px;
+    background-size: cover;
      
 }
 

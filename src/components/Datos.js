@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-
-
 const useDatos = () => {
   const [covers, setCovers] = useState([]);
 
@@ -26,18 +24,20 @@ const Datos = () => {
     <section>
       {covers.map((item) => (
         <article className={item.orden} key={item.titulo}>
-          <div className="imagenPortada">
-
-            <Link  to={item.url}><img className="coverFoto" src={`${process.env.PUBLIC_URL}/images/${item.img}`}
-              alt={item.titulo}
-            /></Link>
-            
+          <div className="encima">
+            <Link to={item.url}>
+              <img
+                className="coverFoto"
+                src={`${process.env.PUBLIC_URL}/images/${item.img}`}
+                alt={item.titulo}
+              />
+            </Link>
           </div>
+
           <div>
             <h1 className="tituloCover">{item.titulo}</h1>
             <p>{item.descripcion}</p>
           </div>
-          
         </article>
       ))}
     </section>

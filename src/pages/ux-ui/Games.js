@@ -4,7 +4,7 @@ const Games = () => {
   return (
     <div className="page">
       <section>
-        <div className="trabajo fondo-game">
+        <div className="trabajo">
           <img
             className="portada-trabajo"
             src={`${process.env.PUBLIC_URL}/images/games-cover.jpg`}

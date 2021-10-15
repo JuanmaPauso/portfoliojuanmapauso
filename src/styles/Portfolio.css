@@ -33,22 +33,22 @@ article {
 }
 
 .coverFoto {
-    height: 100%;
-    width: 600px;
+   border-radius: 16px;
+   max-width: 100%;
+   max-height: 100%;
    
 }
 
-.imagenPortada {
+/* .encima {
     background-color: var(--color-secondary);
-    height: 300px;
-    width: 600px;
-    
-} 
+    border-radius: 16px;
+    background-image: url("./img/background-cover.jpg");
+} */
 
-.imagenPortada a:hover {
-    opacity: 0.1; 
+.coverFoto:hover {
+    opacity: 0.2;
     filter: grayscale(100%);
-    
+
 }
 
 
@@ -64,6 +64,10 @@ article {
     h1 {
         font-size: var(--text-l);
     }
+
+    .coverFoto {
+        width: 80%;
+    }
     
     .derechaPortada {
         flex-direction: row;
@@ -73,6 +77,11 @@ article {
         flex-direction: row-reverse;
     }
     
+    .coverFoto {
+        min-height: 100%;
+        min-width: 100%;
+    }
+
 }
 
 
@@ -97,8 +106,7 @@ article {
     }
 
     .coverFoto {
-        height: 100%;
-        width: 100%;
+        min-width: 100%;
     }
 }
 
@@ -110,16 +118,7 @@ article {
         font-size: var(--text-m) ;
     }
 
-    .coverFoto {
-        height: 200px;
-        width: 400px;
-    }
-
-    .imagenPortada {
-        height: 200px;
-        width: 400px;
-        
-    } 
+   
     
 }
 
