@@ -17,7 +17,7 @@ const useDatos = () => {
   return covers;
 };
 
-const Datos = () => {
+const Datos = () => {  
   const covers = useDatos();
 
   return (
