@@ -2,16 +2,16 @@ import React from "react";
 
 const Curriculum = () => {
   return (
-    <div className="page">
+    <div className="page fondo-imac">
       <section>
         <div className="presentacion">
           <div className="foto"></div>
-          <div>
+          <div className="biografia">
+            <h2>Juanma Pérez</h2>
+            <div>Diseñador multidisciplinar y desarrollador web</div>
             <p className="parrafo">
-              Hola, me llamo Juanma Pérez, soy un diseñador multidisciplinar y
-              recientemente formado como desarrollador web, actualmente vivo en
-              Valencia, apasionado de las nuevas tecnologías y enamorado de los
-              Cómic desde la infancia.
+              Actualmente vivo en Valencia, apasionado de las nuevas tecnologías
+              y enamorado de los Cómic desde la infancia.
             </p>
             <p className="parrafo">
               En mis 8 años de experiencia, he tenido la suerte de trabajar en
@@ -25,6 +25,7 @@ const Curriculum = () => {
               en la programación web (React, Node.js, MongoDB…) para poder
               desarrollar un proyecto web desde cero.
             </p>
+            <div className="botton-cv"> Descargate mi CV </div>
           </div>
         </div>
       </section>

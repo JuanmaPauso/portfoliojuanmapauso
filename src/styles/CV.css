@@ -1,32 +1,50 @@
 .presentacion {
-    margin-top: 5%;
     margin-bottom: 20%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 4%;
     grid-auto-rows: minmax(100px, auto);
     align-items: center;
     justify-content: center;
     justify-items: center;
     font-size: var(--text-l);
+    font-weight: 200;
     width: 60vw;
    
 }
 
-.foto {
-    /* align-self: center; */
+.foto { 
     align-self: flex-start;
-    height: 380px;
-    width: 380px;
-    border-radius: 50%;
-    background-image: url("./img/Profile.png");
+    background-image: url("./img/profile-v.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 160%;
+    width: 100%;
 }
 
-.foto:hover {
-    background-image: url("./img/Profile-hover.png");
+.biografia {
+    width: 100%;
 }
+
+.botton-cv {
+    border: 2px solid #5fb7ff;
+    border-radius: 16px;
+    text-align: center;
+    padding: 8px 0 8px 0;
+    margin-top: 8%;
+    width: 30vw;
+    color: var(--color-primary);
+}
+
+.botton-cv:hover {
+    color:  var(--color-secondary);
+    border: 2px solid #FF93CD;
+}
+
+/* .foto:hover {
+    background-image: url("./img/Profile-hover.png");
+} */
 
 .parrafo {
     margin-top: 2%;
@@ -40,11 +58,7 @@
         font-size: var(--text-m);
     }
     
-    .foto {
-        align-self: center;
-        height: 300px;
-        width: 300px;
-    }
+   
 }
 
 @media only screen and (max-width: 1280px)
@@ -55,7 +69,16 @@
         flex-direction: column;
         font-size: var(--text-l);
     }
-    
+    .foto {
+        align-self: center;
+        background-image: url("./img/profile-h.jpg");
+        width: 140%;
+        height: 500px;
+        background-position: center;
+    }
+    .biografia {
+        margin-top: 8%;
+    }
 }
 
 @media only screen and (max-width: 720px)
