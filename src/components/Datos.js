@@ -17,14 +17,14 @@ const useDatos = () => {
   return covers;
 };
 
-const Datos = () => {  
+const Datos = () => {
   const covers = useDatos();
 
   return (
     <section>
       {covers.map((item) => (
         <article className={item.orden} key={item.titulo}>
-          <div className="encima">
+          <div>
             <Link to={item.url}>
               <img
                 className="coverFoto"
