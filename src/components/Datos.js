@@ -34,7 +34,7 @@ const Datos = () => {
             </Link>
           </div>
 
-          <div>
+          <div className="textoPortada">
             <h1 className="tituloCover">{item.titulo}</h1>
             <p>{item.descripcion}</p>
           </div>
