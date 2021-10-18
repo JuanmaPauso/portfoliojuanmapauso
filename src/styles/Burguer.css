@@ -16,20 +16,10 @@
     opacity: 1 !important;
   }
   
-  /* .bm-menu-wrap {
-    visibility: hidden;
-  }
-  
-  .bm-menu-wrap.open {
-    visibility: visible;
-  } */
-  
   .bm-cross-button {
     height: 32px;
     width: 32px;
   }
-  
-  
   
   .bm-menu {
     background: var(--color-background-alternative);

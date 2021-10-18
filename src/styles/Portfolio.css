@@ -44,12 +44,6 @@ article {
     height: auto;
 }
 
-/* ???? {
-    background-color: var(--color-secondary);
-    border-radius: 16px;
-    background-image: url("./img/background-cover.jpg");
-} */
-
 .coverFoto:hover {
 
     filter: grayscale(100%);

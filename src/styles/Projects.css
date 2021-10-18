@@ -7,13 +7,10 @@
 }
 
 .titulo-trabajo {
-    /* text-align: center; */
     margin-top: 2%;
 }
 
 .portada-trabajo {
-    /* width: 600px;
-    height: auto; */
     border-radius: 16px;
     width: 120%;
     align-self: center;

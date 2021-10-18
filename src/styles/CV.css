@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 160%;
+    height: 100%;
     width: 100%;
     border-radius: 16px;
 }
@@ -44,10 +44,6 @@
     color:  var(--color-secondary);
     border-color: var(--color-secondary);
 }
-
-/* .foto:hover {
-    background-image: url("./img/Profile-hover.png");
-} */
 
 .parrafo {
     margin-top: 2%;
