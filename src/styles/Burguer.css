@@ -10,6 +10,11 @@
   .bm-burger-bars {
     background: var(--color-primary);
   }
+
+  .bm-burger-bars-hover {
+    background: var(--color-secondary);
+    opacity: 1 !important;
+  }
   
   /* .bm-menu-wrap {
     visibility: hidden;
@@ -27,10 +32,6 @@
   .bm-cross {
     background: var(--color-secondary);
   }
-
-  /* .bm-cross:hover {
-    background: var(--color-secondary);
-  } */
   
   .bm-menu {
     background: var(--color-background-alternative);
