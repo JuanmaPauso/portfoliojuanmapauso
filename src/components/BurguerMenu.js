@@ -21,7 +21,7 @@ const BurgerMenu = () => {
               </g>
             </svg>
         </Link>
-        <Menu right noOverlay onStateChange={toggleMenu} width={'100%'}>
+        <Menu right noOverlay onStateChange={toggleMenu} width={'100%'} customBurgerIcon={ <img src={`${process.env.PUBLIC_URL}/images/menu.svg`}/>} customCrossIcon = {  <img src={`${process.env.PUBLIC_URL}/images/cross.svg`}/> }>
           <Link className="menu-item" exact to="/">
             Home
           </Link>

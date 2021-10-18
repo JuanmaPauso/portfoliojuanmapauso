@@ -6,7 +6,7 @@
     right: 36px;
     top: 36px;
   }
-  
+
   .bm-burger-bars {
     background: var(--color-primary);
   }
@@ -25,13 +25,11 @@
   } */
   
   .bm-cross-button {
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
   }
   
-  .bm-cross {
-    background: var(--color-secondary);
-  }
+  
   
   .bm-menu {
     background: var(--color-background-alternative);
