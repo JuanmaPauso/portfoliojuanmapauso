@@ -19,10 +19,18 @@ body {
     /* padding: 0 20vw 0 20vw; */
 }
 
+h1, h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 h1 {
     font-size: 40px;
     color: var(--color-primary);
     text-transform: uppercase;
+}
+
+h3 {
+    color: var(--color-font-alternative);
 }
 
 .fondo-imac {

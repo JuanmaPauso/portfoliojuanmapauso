@@ -8,7 +8,7 @@ const Curriculum = () => {
           <div className="foto"></div>
           <div className="biografia">
             <h2>Juanma Pérez</h2>
-            <div>Diseñador multidisciplinar y desarrollador web</div>
+            <h3>Diseñador multidisciplinar y desarrollador web</h3>
             <p className="parrafo">
               Actualmente vivo en Valencia, apasionado de las nuevas tecnologías
               y enamorado de los Cómic desde la infancia.

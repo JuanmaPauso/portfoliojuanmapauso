@@ -8,7 +8,7 @@
     justify-content: center;
     justify-items: center;
     font-size: var(--text-l);
-    font-weight: 200;
+    font-weight: 300;
     width: 60vw;
    
 }
@@ -29,19 +29,20 @@
 }
 
 .botton-cv {
-    border: 2px solid #5fb7ff;
+    border: 2px solid;
+    border-color: var(--color-primary);
     border-radius: 16px;
     text-align: center;
     padding: 8px 0 8px 0;
     margin-top: 8%;
-    width: 30vw;
+    width: 20vw;
     color: var(--color-primary);
-    transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out, border-color .5s ease-in-out;
 }
 
 .botton-cv:hover {
     color:  var(--color-secondary);
-    border: 2px solid #FF93CD;
+    border-color: var(--color-secondary);
 }
 
 /* .foto:hover {
