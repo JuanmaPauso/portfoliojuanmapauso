@@ -2,7 +2,8 @@
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 36px;
+    left: initial;
+    right: 36px;
     top: 36px;
   }
   
@@ -26,11 +27,16 @@
   .bm-cross {
     background: var(--color-secondary);
   }
+
+  /* .bm-cross:hover {
+    background: var(--color-secondary);
+  } */
   
   .bm-menu {
     background: var(--color-background-alternative);
     padding: 2.5em 1.5em 0;
     font-size: 24px;
+    text-align: center;
   }
   
   .bm-item-list {
