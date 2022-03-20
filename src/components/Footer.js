@@ -28,7 +28,7 @@ const Footer = () => {
         </a>
         
       </div>
-      <p>Juanma Pérez © 2021</p>
+      <p>Juanma Pérez © 2022</p>
     </footer>
   );
 };
