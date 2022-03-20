@@ -31,6 +31,9 @@ const BurgerMenu = () => {
           <Link className="menu-item" to="/Portfolio">
             Portfolio
           </Link>
+          <Link className="menu-item" to="/blog">
+            blog
+          </Link>
         </Menu>
     </div>
 
