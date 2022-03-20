@@ -31,9 +31,14 @@ const Navbar = () => {
                 Sobre mí
               </NavLink>
             </li>
-            <li>
+            <li className="enlace">
               <NavLink activeClassName="color-activo" to="/Portfolio">
                 Portfolio
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeClassName="color-activo" to="/Blog">
+                Blog
               </NavLink>
             </li>
           </ul>
