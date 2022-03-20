@@ -32,7 +32,7 @@ const BurgerMenu = () => {
             Portfolio
           </Link>
           <Link className="menu-item" to="/blog">
-            blog
+            Blog
           </Link>
         </Menu>
     </div>
