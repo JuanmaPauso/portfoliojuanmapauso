@@ -31,16 +31,16 @@ const Navbar = () => {
                 Sobre mí
               </NavLink>
             </li>
-            <li className="enlace">
+            <li>
               <NavLink activeClassName="color-activo" to="/Portfolio">
                 Portfolio
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink activeClassName="color-activo" to="/blog">
                 Blog
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </li>
       </ul>}
