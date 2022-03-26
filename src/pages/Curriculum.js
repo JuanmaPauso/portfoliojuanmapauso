@@ -2,13 +2,13 @@ import React from "react";
 
 const Curriculum = () => {
   return (
-    <div className="page fondo-imac">
+    <div className="page">
       <section>
         <div className="presentacion">
           <div className="foto"></div>
           <div className="biografia">
             <h2>Juanma Pérez</h2>
-            <h3>Diseñador multidisciplinar y desarrollador web</h3>
+            <h3>Director de arte y desarrollador web</h3>
             <p className="parrafo">
               Actualmente vivo en Valencia, apasionado de las nuevas tecnologías
               y enamorado de los Cómic desde la infancia.
