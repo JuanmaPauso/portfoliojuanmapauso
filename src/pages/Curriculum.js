@@ -23,7 +23,7 @@ const Curriculum = () => {
             <p className="parrafo">
               En los últimos años me he ido especializando en el diseño UX/UI y
               en la programación web (React, Node.js, MongoDB…) para poder
-              desarrollar un proyecto web desde cero.
+              liderar un proyecto web desde cero.
             </p>
             <div className="botton-cv"> Descargate mi CV </div>
           </div>
