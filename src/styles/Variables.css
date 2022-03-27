@@ -13,4 +13,6 @@
     --text-l: 24px;
     --text-xl: 32px;
     --text-xxl: 42px;
+    /* font-weight */
+    --text-bold: 900;
   }

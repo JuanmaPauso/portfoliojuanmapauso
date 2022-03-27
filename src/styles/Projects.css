@@ -10,6 +10,14 @@
     margin-top: 2%;
 }
 
+.ejemplos-trabajo {
+    margin: 4% 0 4% 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: var(--text-bold);
+    color: var(--color-primary);
+}
+
 .portada-trabajo {
     border-radius: 16px;
     width: 120%;
@@ -21,11 +29,12 @@
     align-self: center;
     max-width: 100%;
     height: auto;
+    border-radius: 16px;
 }
 
 .pie-foto {
     margin-top: 1%;
-    padding-top: 4px;
+    padding: 4px 2% 0 2%;
     align-self: center;
     text-align: center;
     font-size: 16px;
@@ -33,7 +42,6 @@
     color: white;
     background-color: var(--color-primary);
     border-radius: 8px;
-    width: 240px;
     height: 32px;
 }
 
