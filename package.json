@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "homepage": "https://juanmapauso.com/build/",
+  "homepage": "https://juanmapauso.com/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,3 +40,4 @@
     ]
   }
 }
+
