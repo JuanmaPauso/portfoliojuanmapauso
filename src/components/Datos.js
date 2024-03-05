@@ -6,8 +6,8 @@ const useDatos = () => {
 
   useEffect(() => {
     // cambiar direccion antes del deploy
-    fetch("https://juanmapauso.com/portfolio/json/covers.json")
-    // fetch("build/json/covers.json")
+    // fetch("https://juanmapauso.com/portfolio/json/covers.json")
+    fetch("build/json/covers.json")
       .then((response) => response.json())
       .then((datos) => {
         setCovers(datos);
